@@ -33,5 +33,5 @@ else if(method == 4){
     alert(`you have to pay fitra ${familyMembers*wheat} in pkr`)
 }
 else {
-    alert(`Error`) 
+    alert(`Error! Try again`) 
 }

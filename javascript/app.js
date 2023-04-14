@@ -1,3 +1,5 @@
+//Task 1 : calculating zakat value
+
 // Make a variable named zakat percentage and store a value of 2.5% (hint: 2.5% means 0.025)
 let zakatPercentage = 0.025;
 
@@ -12,6 +14,6 @@ if (isNaN(userInput)) {
   let result = zakatPercentage * userInput;
 
   // At the last alert, this result shows a message like "your zakat value is xxx"
-  alert(`Your zakat value is ${result}`);
+  alert(`Your zakat value is ${result} pkr`);
 }
 
