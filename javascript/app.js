@@ -14,3 +14,4 @@ if (isNaN(userInput)) {
   // At the last alert, this result shows a message like "your zakat value is xxx"
   alert(`Your zakat value is ${result}`);
 }
+
