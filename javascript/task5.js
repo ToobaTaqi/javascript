@@ -4,12 +4,12 @@
 // creating two empty arrays called "contactNumbers" and "contactNames"
 let contactNumbers = []
 let contactNames = []
-let iterate = prompt(`How may times you wanna iterate the loop?`)
+let iterate = +prompt(`How may times you wanna iterate the loop?`)
 
 // Using the prompt, you will ask the user to enter a contact number and contact name.
 for (i = 1; i <= iterate; i++) {
     //You will then push these values into their respective arrays using the push method
-    let number = prompt(`Enter contact number`)
+    let number = +prompt(`Enter contact number`)
     contactNumbers.push(number)
     let name = prompt(`Enter contact name`)
     contactNames.push(name)
