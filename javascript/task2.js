@@ -24,13 +24,13 @@ if (method == 1) {
     alert(`you have to pay fitra ${familyMembers*wheat} in pkr`)
 }
 else if (method == 2) {
-    alert(`you have to pay fitra ${familyMembers*wheat} in pkr`)
+    alert(`you have to pay fitra ${familyMembers*oat} in pkr`)
 }
 else if (method == 3) {
-    alert(`you have to pay fitra ${familyMembers*wheat} in pkr`)
+    alert(`you have to pay fitra ${familyMembers*dates} in pkr`)
 }
 else if(method == 4){
-    alert(`you have to pay fitra ${familyMembers*wheat} in pkr`)
+    alert(`you have to pay fitra ${familyMembers*raisins} in pkr`)
 }
 else {
     alert(`Error! Try again`) 
