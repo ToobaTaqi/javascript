@@ -17,7 +17,7 @@ let n = nationality.toUpperCase()
 let gender = prompt('What is your gender? (male/female)')
 let g = gender.toUpperCase()
 let age = +prompt('how old are you?')
-if (n == 'PAKISTANI') {
+if (n == 'PAKISTANI' || n == 'INDIAN') {
     if (g == 'MALE') {
         if (age > 18) {
             alert('Eligible to vote')
